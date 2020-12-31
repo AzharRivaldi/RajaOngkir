@@ -29,7 +29,7 @@ public class Api {
 
         builder.addInterceptor(chain -> {
             Request request = chain.request().newBuilder()
-                    .addHeader("key", "30f97c26fae291955a5f602523133fa5")
+                    .addHeader("key", "API KEY ada di Video Tutorial")
                     .build();
             return chain.proceed(request);
         });
